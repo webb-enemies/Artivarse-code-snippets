@@ -3,6 +3,11 @@
 ---
 - [CREATECREATOR.JSX](#createcreatorjsx)
 - [CREATEARTICAL.JSX](#createarticaljsx)
+- [CREATROARTICALS.jsx](#creatroarticalsjsx)
+- [EDITARTICALLIST.JSX](#editarticallistjsx)
+- [CREATOROVERVIEW.JSX](#creatoroverviewjsx)
+- [CREATORSETTINGS.JSX](#creatorsettingsjsx)
+- [NAVBARFORCREATOR.JSX](#navbarforcreatorjsx)
 ---
 
 
