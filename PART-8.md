@@ -1,4 +1,4 @@
-## part-8 important code snippets
+        ## part-8 important code snippets
 
 ---
 - [CREATECREATOR.JSX](#createcreatorjsx)
@@ -6,7 +6,6 @@
 - [CREATROARTICALS.jsx](#creatroarticalsjsx)
 - [EDITARTICALLIST.JSX](#editarticallistjsx)
 - [CREATOROVERVIEW.JSX](#creatoroverviewjsx)
-- [CREATORSETTINGS.JSX](#creatorsettingsjsx)
 - [NAVBARFORCREATOR.JSX](#navbarforcreatorjsx)
 ---
 
@@ -316,50 +315,6 @@
         </div>
     </div>
 </div>
-```
-
-
-# CREATORSETTINGS.JSX
-
-```JavaScript
-<div className='flex flex-col items-center justify-around w-full h-[70%]'>
-    <h3 className=' text-center py-5 poppins'>Are you sure you want to delete the creator account?</h3>
-    <div className='flex items-start gap-3'>
-        <button className={`px-3 py-2 bg-red-500 text-black font-semibold rounded-lg `}>Yes, delete the
-            account.</button>
-
-        <button className={`px-3 py-2 bg-green-500 text-white font-semibold rounded-lg `}>No, keep the account</button>
-    </div>
-</div>
-
-<div className='w-[90%] mx-auto min-h-screen max-h-full  p-10'>
-    <div className='py-10'>
-        <h3 className=' text-[1.2rem] capitalize'>settings</h3>
-        <p className='text-[1.8rem]'>Set up Artivarse exactly how you want it</p>
-    </div>
-    <div className=' flex flex-col gap-10'>
-        <div className='flex items-center justify-between w-[50%]'>
-            <p className=' capitalize font-semibold text-[1rem]'>user id</p>
-            <p className='px-3 rounded-xl  py-2 border-2 border-neutral-400'>USERID</p>
-        </div>
-
-        <div className='flex items-center justify-between w-[50%]'>
-            <p className=' capitalize font-semibold text-[1rem]'>creator id</p>
-            <p className='px-3 rounded-xl  py-2 border-2 border-neutral-400'>CREATOR ID</p>
-        </div>
-
-        <div className='flex items-center justify-between w-[50%]'>
-            <div>
-                <p className=' capitalize font-semibold text-[1rem]'>delete channel</p>
-                <p className=' capitalize font-semibold text-[0.7rem] text-neutral-400'>Deleting your Artivarse channel
-                    won't close your Artivarse Account</p>
-            </div>
-            <button
-                className='px-3 rounded-md  py-1 inter text-[0.9rem] capitalize font-semibold border-neutral-400'>delete</button>
-        </div>
-    </div>
-</div>
-
 ```
 
 # NAVBARFORCREATOR.JSX
